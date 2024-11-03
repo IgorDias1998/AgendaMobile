@@ -84,4 +84,39 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edEmail" />
+
+    <Button
+        android:id="@+id/btnApagar"
+        android:layout_width="178dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="44dp"
+        android:text="Excluir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCadastrar" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="178dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="40dp"
+        android:text="Consultar"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnApagar" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="69dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="327dp"
+        android:layout_marginTop="13dp"
+        android:background="@android:drawable/alert_dark_frame"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
